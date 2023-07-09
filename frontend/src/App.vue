@@ -9,22 +9,18 @@
     </div>
     <router-view />
 
-    <div>
-      <GetValue />
-    </div>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import GetValue from './components/GetValue.vue'
+// import GetValue from './components/GetValue.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    GetValue
+    HelloWorld
   }
 }
 </script>

@@ -5,7 +5,7 @@
 <script>
 import axios from 'axios';
 export default {
-  name: 'QuoteAPI',
+  name: 'IntroductionScreen',
   data() {
     return {
       about_content: '',
