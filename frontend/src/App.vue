@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="HIT Digital" />
+    <img alt="Hit Digital logo" width="180px" src="./assets/logo.png">
 
     <div id="nav">
       <router-link to="/">Introdução</router-link> |
@@ -13,15 +12,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-// import GetValue from './components/GetValue.vue'
-
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
@@ -31,7 +23,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: 'black';
+  color: gray;
+  margin-top: 10px;
+  background-color: 'gray';
 }
 </style>
