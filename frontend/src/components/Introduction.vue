@@ -20,7 +20,7 @@ export default {
   },
   created() {
     var responseData = null
-    axios.get(`http://robson.srv.br:8000/cms2/sobre/`)
+    axios.get(`http://robson.srv.br:8000/cms2/`)
       .then(response => {
         let content_html = response.data;
         var body = "<body>";
